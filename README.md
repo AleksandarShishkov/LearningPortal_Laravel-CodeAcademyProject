@@ -2,7 +2,7 @@
 
 # website - https://peppers-aws.ddns.net/
 
-# The project was realized within the final exam of the Code Academy`s PHP/Laravel/SQL course - 2023.
+# The project was realized as part of the final exam for the Code Academy`s PHP/Laravel/SQL course - 2023.
 
 # LearningPortal 
 is a platform built as a multifunctional tool that includes various login roles - public, student, teacher, business, and administrator.
@@ -19,3 +19,6 @@ are validated through specially organized middleware and requests. Various queri
 
 # The project 
 is implemented using PHP, Laravel, and SQL as the backend, while HTML, CSS, and JavaScript are implemented for the frontend part.
+
+-- make sure to migrate the tables before testing LearningPortal`s functionality --
+-- php artisan migrate / php artisan db:seed --
