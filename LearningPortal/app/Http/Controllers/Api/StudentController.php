@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers\Api;
 
-
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AbstractBaseController;
 use App\Models\User;
 

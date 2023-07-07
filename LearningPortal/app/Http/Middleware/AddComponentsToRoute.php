@@ -3,15 +3,10 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use App\Http\Controllers\AbstractBaseController;
-use Illuminate\Http\Request;
 use App\Models\Course;
 use App\Models\CourseModule;
 use App\Models\LanguageLevel;
 use App\Models\UserType;
-use App\Models\User;
-use App\Models\HomeworkTask;
-use Illuminate\Support\Facades\Auth;
 
 
 class AddComponentsToRoute

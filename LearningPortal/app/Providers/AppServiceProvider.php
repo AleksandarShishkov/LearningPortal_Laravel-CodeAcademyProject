@@ -4,9 +4,6 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-use App\Models\User;
-use App\Observers\WelcomeMailObserver;
-
 class AppServiceProvider extends ServiceProvider
 {
     /**

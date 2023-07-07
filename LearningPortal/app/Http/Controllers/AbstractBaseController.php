@@ -15,8 +15,6 @@ use App\Models\User;
 use App\Models\LanguageLevel;
 use Illuminate\Support\Facades\File;
 use App\Events\SendMail;
-use Illuminate\Support\Facades\URL;
-use Illuminate\Support\Facades\Route;
 
 
 abstract class AbstractBaseController extends Controller

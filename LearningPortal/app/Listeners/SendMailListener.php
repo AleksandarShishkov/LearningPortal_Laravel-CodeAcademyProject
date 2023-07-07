@@ -3,9 +3,7 @@
 namespace App\Listeners;
 
 use App\Events\SendMail;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Support\Facades\Log;
 use App\Jobs\SendMailJob;
 
 class SendMailListener

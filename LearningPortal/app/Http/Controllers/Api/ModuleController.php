@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Models\User;
 use App\Http\Controllers\AbstractBaseController;
 use App\Http\Requests\ModuleRequest;
 use App\Models\CourseModule;

@@ -3,8 +3,6 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Config;
-use Carbon\Carbon;
 
 class TimeServiceProvider extends ServiceProvider
 {

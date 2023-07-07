@@ -13,7 +13,6 @@ use App\Http\Requests\NewPasswordRequest;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
 use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Config;
 use App\Models\Password_reset;
 use App\Events\SendMail;

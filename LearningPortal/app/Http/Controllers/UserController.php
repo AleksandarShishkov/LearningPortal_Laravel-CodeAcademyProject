@@ -2,22 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Mail;
-use Illuminate\Http\Request;
-
 use App\Http\Requests\UpdatePasswordProfileRequest;
 use App\Http\Controllers\AbstractBaseController;
-use App\Mail\UpdatePasswordConfirmationMail;
 use App\Http\Requests\UserUpdateMailRequest;
 use App\Http\Requests\ProfileUpdateRequest;
-use Illuminate\Support\Facades\Session;
-use App\Listeners\SendMailListener;
 use App\Http\Requests\UserRequest;
-use App\Mail\UpdateEmailMail;
 use App\Events\SendMail;
 use App\Models\Language;
 use App\Models\Country;
@@ -30,7 +21,6 @@ use App\Models\WebPage;
 use App\Models\MassangerName;
 use App\Models\Hobby;
 use App\Models\Skill;
-use App\Models\Course;
 use App\Models\UserType;
 
 

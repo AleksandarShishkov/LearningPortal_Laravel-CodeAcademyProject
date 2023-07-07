@@ -2,9 +2,7 @@
 
 namespace App\Jobs;
 
-use App\Mail\CourseApplyApprovedAdminMail;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
@@ -21,9 +19,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Lang;
 use App\Models\User;
-use App\Models\UserType;
 use Exception;
-use App\Models\Course;
 use App\Mail\CourseApplicationApprovedMail;
 use App\Mail\CourseApplicationApprovedAdminMail;
 

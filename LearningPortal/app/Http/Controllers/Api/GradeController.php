@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
-use App\Http\Controllers\AbstractBaseController;
-use App\Http\Requests\GradeRequest;
 use App\Models\Absence;
 use App\Models\CourseModule;
 use App\Models\Grade;
@@ -12,7 +10,6 @@ use Illuminate\Http\Request;
 use App\Models\Lecture;
 use App\Models\UserHomeworkTask;
 use App\Models\Course;
-use App\Models\HomeworkTask;
 
 class GradeController extends Controller
 {

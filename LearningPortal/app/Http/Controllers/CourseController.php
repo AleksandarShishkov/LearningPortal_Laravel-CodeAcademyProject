@@ -2,19 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use App\Http\Controllers\AbstractBaseController;
 use App\Http\Requests\CourseRequest;
 use App\Models\Course;
-use App\Models\CourseModule;
-use App\Models\UserHomeworkTask;
 use App\Models\Lecture;
-use Illuminate\Http\Client\Response;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Auth;
-use App\Http\Requests\CourseLogoRequest;
-use Illuminate\Support\Facades\DB;
 use App\Models\UserType;
 
 

@@ -7,7 +7,6 @@ use App\Http\Requests\HomeworkRequest;
 use App\Models\HomeworkTask;
 use App\Models\UserHomeworkTask;
 use App\Models\Lecture;
-use Illuminate\Support\Facades\File;
 
 class HomeworkController extends AbstractBaseController
 {

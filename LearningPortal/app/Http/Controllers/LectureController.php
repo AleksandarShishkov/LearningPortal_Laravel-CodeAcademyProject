@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use App\Http\Controllers\AbstractBaseController;
 use App\Http\Requests\LectureRequest;
 use App\Models\Lecture;

@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Api;
 use App\Models\MenuItem;
 use App\Http\Controllers\AbstractBaseController;
 use App\Http\Requests\MenuItemRequest;
-use Illuminate\Http\JsonResponse;
 
 class MenuItemController extends AbstractBaseController
 {

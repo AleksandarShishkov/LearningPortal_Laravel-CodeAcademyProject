@@ -12,7 +12,6 @@ use Illuminate\Http\Request;
 use App\Models\Lecture;
 use App\Models\UserHomeworkTask;
 use App\Models\Course;
-use App\Models\HomeworkTask;
 use App\Models\UserType;
 
 class GradeController extends AbstractBaseController

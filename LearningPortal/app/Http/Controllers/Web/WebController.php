@@ -2,10 +2,7 @@
 
 namespace App\Http\Controllers\Web;
 
-use Illuminate\Http\Request;
-use App\Models\MenuItem;
 use App\Models\Course;
-use Illuminate\Support\Facades\View;
 use App\Http\Controllers\AbstractBaseController;
 
 class WebController extends AbstractBaseController
