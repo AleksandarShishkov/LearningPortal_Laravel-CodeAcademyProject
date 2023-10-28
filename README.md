@@ -1,7 +1,5 @@
 # LearningPortal_Laravel-CodeAcademyProject
 
-# website - https://peppers-aws.ddns.net/
-
 # The project was realized as part of the final exam for the Code Academy`s PHP/Laravel/SQL course - 2023.
 
 # LearningPortal 
